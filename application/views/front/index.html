@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Saloon</title>
+    <link rel="icon" href="images/favicon.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body onload="offcanvasOpen()">
+      
+ 
+   <div class="wrapper">
+
+    <div class="topSection">
+        <div class="container mini-container">
+               <div class="row">
+                <div class="col-12">
+                    <div class="d-flex justify-content-between align-items-center py-2">
+                        <div><a href="more.html"><img src="images/ic_settings.svg" alt=""></a></div>
+                        <div class="heading"><h6>Search <span>Hospital</span></h6></div>
+                        <div>
+                            <a class="me-1 cursor-pointer" data-bs-toggle="offcanvas" data-bs-target="#demo1">
+                                <img src="images/new/lang_hindi_a.svg" alt="">
+                            </a>
+                            <a class="cursor-pointer" data-bs-target="#demo" data-bs-toggle="offcanvas">
+                                <img src="images/ic_location.svg" alt="">
+                            </a>
+                            
+                            </div>
+                    
+                       </div>
+                       <div class="py-3">
+                        <img src="images/img_pattern.png" alt="" class="img-fluid">
+                       </div>
+                       <div class="py-3">
+                        <div class=" input-group shadow  position-relative">
+                            <select name="" id="" >
+                              <option value="category">category</option>
+                            </select>
+                            <input type="text" name="" id="" class="form-control" placeholder="Search Phone Number, Or Name">
+                            <span class="input-group-text ">
+                                <img src="images/ic_search.svg" alt="">
+                            </span>
+                        </div>
+                       </div>
+                </div>
+               </div>
+              
+            </div>
+       
+    
+        </div>
+        <div class="bottomSection my-3">
+            <div class="container mini-container">
+                <div class="row">
+                    <div class="col-12 position-relative">
+                        <span class="lastvisited">Last Visited</span>
+                        <a href="customer_list.html" class="card mb-2 r-10 text-decoration-none">
+                     
+                            <div class="card-body p-2 searchList">
+
+                                <div class="d-flex ">
+                                    <div cla    class="me-2">
+                                        <img src="images/item.jpg" alt=""  class="img-fluid">
+                                    </div>
+                                    <div class="caption">
+                                        <h4 class="mb-0">Mr. Nai Unisex Salon</h4>
+                                        <p class="mb-0"><span>Rajesh Yadav</span><span class=" text-dark"> Hospital</span></p>
+                                        <p class="mb-0 justify-content-start">83, Sathya Sai Squar 
+                                            <img  class="img-fluid _locationarrow ms-1" src="images/new/location_arrow.svg" alt=""></p>
+                                    </div>
+                                </div>
+                               
+                            </div>
+                        </a>
+                        <a href="customer_list.html" class="card mb-2 r-10 text-decoration-none">
+                            <div class="card-body p-2 searchList">
+                                <div class="d-flex ">
+                                    <div class="me-2">
+                                        <img src="images/item.jpg" alt=""  class="img-fluid">
+                                    </div>
+                                    <div class="caption">
+                                        <h4 class="mb-0">Mr. Nai Unisex Salon</h4>
+                                        <p class="mb-0"><span>Rajesh Yadav</span></p>
+                                        <p class="mb-0 justify-content-start">83, Sathya Sai Squar 
+                                            <img  class="img-fluid _locationarrow ms-1" src="images/new/location_arrow.svg" alt=""></p>
+                                    </div>
+                                </div>
+                               
+                            </div>
+                        </a>
+                        <a href="customer_list.html" class="card mb-2 r-10 text-decoration-none">
+                            <div class="card-body p-2 searchList">
+                                <div class="d-flex ">
+                                    <div class="me-2">
+                                        <img src="images/item.jpg" alt=""  class="img-fluid">
+                                    </div>
+                                    <div class="caption">
+                                        <h4 class="mb-0">Mr. Nai Unisex Salon</h4>
+                                        <p class="mb-0"><span>Rajesh Yadav</span><span class="text-dark"> Clinic</span></p>
+                                        <p class="mb-0 justify-content-start">83, Sathya Sai Squar 
+                                            <img  class="img-fluid _locationarrow ms-1" src="images/new/location_arrow.svg" alt=""></p>
+                                    </div>
+                                </div>
+                               
+                            </div>
+                        </a>
+                        </div>
+                        </div>
+               
+                </div>
+        </div>
+        <div class="footerBtn">
+            <div class="container mini-container">
+                <div class="row">
+                    <div class="col-12">
+            <a href="my_booking_number.html" class="position-relative">
+                <span></span>
+                <h4 class="mb-0">
+                    View Booking No.
+                </h4>
+                <img  src="images/btn_arrow.svg" alt="">
+            </a>
+          </div>
+          </div>
+    
+        </div>
+      </div>
+    
+      <div class="offcanvas offcanvas-bottom _setLocation" id="demo">
+        <div class="offcanvas-header ">
+          <h1 class="offcanvas-title">Your Location</h1>
+          <!-- <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button> -->
+        </div>
+        <div class="offcanvas-body py-1">
+         <div class="mb-3">
+            <select name="" id="" class="form-control">
+                <option value="Select State">Select State</option>
+                <option value="Madhya pradesh">Madhya pradesh</option>
+                <option value="Uttar pradesh">Uttar pradesh</option>
+                
+            </select>
+         </div>
+         <div class="mb-3">
+            <select name="" id="" class="form-control">
+                <option value="Select City">Select City</option>
+                <option value="Bhopal">Bhopal</option>
+                <option value="Indore">Indore</option>
+                
+            </select>
+         </div>
+         <div class="mb-3">
+            <input type="text" name="" id="" placeholder="Address" class="form-control">
+         </div>
+          <a  class="btn orangeBtn shadow" > 
+            <span></span>
+            <h4 class="mb-0">Set Location</h4>
+            <img class="position-absolute right-8" src="images/btn_arrow.svg" alt="">
+        </a>
+        </div>
+      </div>
+    
+      <div class="offcanvas offcanvas-bottom _setLocation _langmodal" id="demo1">
+        <div class="offcanvas-header ">
+          <h1 class="offcanvas-title">Select Language</h1>
+          <!-- <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button> -->
+        </div>
+        <div class="offcanvas-body py-1">
+            <div class="d-flex row my-3 langBtn">
+                <div class="mb-3 col-md-6 col-6">
+                    
+                   <input type="radio" name="lang" value="english" id="eng" class="d-none">
+                   <label for="eng" class="btn btn-outline-primary w-100 ">
+                          <div>
+                            <img src="images/new/lang_eng_a.svg" alt="a">
+                            <img src="images/new/lang_eng_b.svg" alt="b">
+                          </div>
+                          <div> <h5 class="mb-0">English</h5></div>
+                           <div>&nbsp;</div>     
+                   </label>
+                   
+                </div>
+                <div class="mb-3 col-md-6 col-6">
+                    <input type="radio" name="lang" value="hindi" id="hindi" class="d-none">
+                    <label for="hindi" class="btn btn-outline-primary w-100">
+                        <div>
+                     <img src="images/new/lang_hindi_a.svg" alt="a">
+                     <img src="images/new/lang_hindi_b.svg" alt="b">
+                     </div>
+                     <div><h5 class="mb-0">Hindi</h5></div>
+                     <div>&nbsp;</div>     
+                    </label>
+                </div>
+                
+            </div>
+        
+        
+          <a  class="btn orangeBtn shadow" >
+            <span></span>
+            <h4 class="mb-0">Set Language</h4>
+            <img class="position-absolute right-8" src="images/btn_arrow.svg" alt="">
+        </a>
+        </div>
+      </div>
+
+    
+   </div>
+
+
+
+  <script>
+offcanvasOpen = ()=>{
+ document.querySelector("#demo1").classList.add("show");
+}
+closeCanvas = () => { 
+    document.querySelector("#demo1").classList.remove('show')
+    var backdrop = document.querySelectorAll('.modal-backdrop');
+     backdrop[0].classList.remove('show');
+}
+
+</script>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="33.682" height="33.752" viewBox="0 0 33.682 33.752">
+  <defs>
+    <filter id="Path_5440" x="0" y="0" width="33.682" height="33.752" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#113c8d" flood-opacity="0.416"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.49" y1="0.06" x2="0.495" y2="0.915" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#57d163"/>
+      <stop offset="1" stop-color="#23b33a"/>
+    </linearGradient>
+  </defs>
+  <g id="WhatsApp" transform="translate(9 7)">
+    <path id="Path_5439" data-name="Path 5439" d="M18.052,26.812l.237.141a6.48,6.48,0,0,0,3.3.9h0a6.489,6.489,0,1,0-5.5-3.04l.154.245L15.6,27.456Zm-4.331,2.5,1.108-4.045a7.809,7.809,0,1,1,6.766,3.91h0a7.8,7.8,0,0,1-3.731-.95Zm0,0" transform="translate(-13.641 -13.478)" fill="#b3b3b3"/>
+    <g transform="matrix(1, 0, 0, 1, -9, -7)" filter="url(#Path_5440)">
+      <path id="Path_5440-2" data-name="Path 5440" d="M12.966,28.554l1.108-4.045a7.809,7.809,0,1,1,6.766,3.91h0a7.8,7.8,0,0,1-3.731-.95Z" transform="translate(-3.97 -5.8)" fill="#fff"/>
+    </g>
+    <path id="Path_5441" data-name="Path 5441" d="M32.5,25.227a6.491,6.491,0,0,0-5.5,9.94l.154.245L26.5,37.806l2.456-.644.237.141a6.481,6.481,0,0,0,3.3.9h0a6.49,6.49,0,0,0,0-12.98Z" transform="translate(-24.622 -23.908)" fill="rgba(0,0,0,0)"/>
+    <path id="Path_5442" data-name="Path 5442" d="M32.5,25.227a6.491,6.491,0,0,0-5.5,9.94l.154.245L26.5,37.806l2.456-.644.237.141a6.481,6.481,0,0,0,3.3.9h0a6.49,6.49,0,0,0,0-12.98Z" transform="translate(-24.622 -23.908)" fill="url(#linear-gradient)"/>
+    <path id="Path_5443" data-name="Path 5443" d="M51.79,52.726c-.146-.325-.3-.331-.439-.337l-.374,0a.717.717,0,0,0-.52.244,2.188,2.188,0,0,0-.683,1.627,3.8,3.8,0,0,0,.8,2.018A8.006,8.006,0,0,0,53.9,59.218c1.648.65,1.983.521,2.341.488a1.97,1.97,0,0,0,1.317-.928,1.632,1.632,0,0,0,.114-.928c-.049-.082-.179-.13-.374-.228s-1.154-.57-1.333-.635-.309-.1-.439.1-.5.635-.618.765-.228.147-.423.049a5.326,5.326,0,0,1-1.569-.968,5.887,5.887,0,0,1-1.085-1.351c-.114-.2-.012-.3.086-.4s.2-.228.293-.342a1.323,1.323,0,0,0,.195-.325.359.359,0,0,0-.016-.342c-.049-.1-.428-1.062-.6-1.448" transform="translate(-45.868 -48.183)" fill="#fff" fill-rule="evenodd"/>
+  </g>
+</svg>

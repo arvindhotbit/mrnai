@@ -1,0 +1,77 @@
+<html>
+ <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <title>jQuery Clock Time Picker</title>
+ <!--  <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script> -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script type="text/javascript" src="jquery-clock-timepicker.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      var start='1:00';
+      var end ='5:30';
+	  $('.standard').clockTimePicker();
+	  $('.required').clockTimePicker({required:true});
+	  $('.separatorTime').clockTimePicker({separator:'.'});
+	  $('.amPmTime').clockTimePicker({useAmPm:true});
+	  $('.precisionTime5').clockTimePicker({precision:5});
+	  $('.precisionTime10').clockTimePicker({precision:10});
+	  $('.precisionTime15').clockTimePicker({
+          precision:15,
+          useAmPm:true,
+          minimum: start,
+          maximum:end
+      });
+	  $('.precisionTime30').clockTimePicker({precision:30});
+	  $('.precisionTime60').clockTimePicker({precision:60});
+	  $('.simpleTime').clockTimePicker({onlyShowClockOnMobile:true});
+	  $('.duration').clockTimePicker({duration:true, maximum:'80:00'});
+	  $('.durationNegative').clockTimePicker({duration:true, durationNegative:true});
+	  $('.durationMinMax').clockTimePicker({duration:true, minimum:'1:00', maximum:'5:30'});
+	  $('.durationNegativeMinMax').clockTimePicker({duration:true, durationNegative:true, minimum:'-5:00', maximum:'5:00', precision:5});
+	});
+  </script>
+  <style type="text/css">
+    h1 { font-size: 20px; margin-bottom:3px; }
+	h2 { margin-top: 40px; margin-bottom:3px; }
+    h3 { font-size: 13px; margin-top:0px; }
+    .main { text-align: center; }
+	.example { margin-bottom: 25px; }
+	.example table { width: 650px; margin: 0px auto; }
+	@media (max-width: 650px) {
+		.example table { width: 100%; }
+		.example td { display: block; text-align: center; }
+	}
+    .time { display:inline-block; font-size:26px; padding:5px; text-align:center; width:94px; margin-top:5px; }
+  </style>
+ </head>
+ <body>
+  <div class="main">
+   
+   <!--p class="example">
+    <strong>Time picker with AM/PM</strong><br />
+	<i>{ useAmPm: true }</i><br />
+    <input class="time amPmTime" type="text" value="8:30 pm" />
+   </p-->
+   <p class="example">
+    <strong>Time picker with precision</strong><br />
+	<table>
+	 <tr>
+	  
+	  <td>
+	   <i>{ precision: 15 }</i><br />
+       <input class="time precisionTime15" type="text" value="01:15" />
+	  </td>
+	 
+	</table>
+   </p>
+   <p class="example">
+    <strong>Time picker - show clock picker only on mobile phones</strong><br />
+	<i>{ onlyShowClockOnMobile: true }</i><br />
+    <input class="time simpleTime" type="text" value="22:00" />
+   </p>
+ 
+  
+  </div>
+ </body>
+</html>

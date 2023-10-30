@@ -1,0 +1,63 @@
+{
+  "name": "Openline",
+  "short_name": "Openline",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#07535d",
+  "theme_color": "#07535d",
+  "description": "saloon,clinic,services",
+  "orientation": "portrait-primary",
+  "gcm_sender_id": "378244812023",
+  "icons": [
+    {
+      "src": "/assets/pwa/icon-72x72.png",
+      "type": "image/png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "/assets/pwa/icon-96x96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "/assets/pwa/icon-128x128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "/assets/pwa/icon-152x152.png",
+      "type": "image/png",
+      "sizes": "152x152"
+    },
+    {
+      "src": "/assets/pwa/icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/assets/pwa/icon-256x256.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "/assets/pwa/icon-384x384.png",
+      "type": "image/png",
+      "sizes": "384x384"
+    },
+    {
+      "src": "/assets/pwa/icon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "display_override": [
+    "standalone",
+    "minimal-ui",
+    "window-controls-overlay"
+  ],
+  "categories": [
+    "business",
+    "lifestyle",
+    "utilities"
+  ]
+}

@@ -1,0 +1,12 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2023-03-02 22:33:30 --> Severity: Warning --> require(D:\xampp\htdocs\bulkmailer\application\third_party/mailgun/vendor/autoload.php): failed to open stream: No such file or directory D:\xampp\htdocs\bulkmailer\application\controllers\Cron.php 2
+ERROR - 2023-03-02 22:33:30 --> Severity: Compile Error --> require(): Failed opening required 'D:\xampp\htdocs\bulkmailer\application\third_party/mailgun/vendor/autoload.php' (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\bulkmailer\application\controllers\Cron.php 2
+ERROR - 2023-03-02 22:34:22 --> Severity: Warning --> require(third_party/mailgun/vendor/autoload.php): failed to open stream: No such file or directory D:\xampp\htdocs\bulkmailer\application\controllers\Cron.php 3
+ERROR - 2023-03-02 22:34:22 --> Severity: Compile Error --> require(): Failed opening required 'third_party/mailgun/vendor/autoload.php' (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\bulkmailer\application\controllers\Cron.php 3
+ERROR - 2023-03-02 22:35:01 --> Severity: Warning --> require(application/third_party/third_party/mailgun/vendor/autoload.php): failed to open stream: No such file or directory D:\xampp\htdocs\bulkmailer\application\controllers\Cron.php 3
+ERROR - 2023-03-02 22:35:01 --> Severity: Compile Error --> require(): Failed opening required 'application/third_party/third_party/mailgun/vendor/autoload.php' (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\bulkmailer\application\controllers\Cron.php 3
+ERROR - 2023-03-02 22:49:41 --> Severity: Warning --> require(application/third_party/third_party/mailgun/vendor/autoload.php): failed to open stream: No such file or directory D:\xampp\htdocs\bulkmailer\application\controllers\Cron.php 3
+ERROR - 2023-03-02 22:49:41 --> Severity: Compile Error --> require(): Failed opening required 'application/third_party/third_party/mailgun/vendor/autoload.php' (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\bulkmailer\application\controllers\Cron.php 3
+ERROR - 2023-03-02 22:55:41 --> Severity: Warning --> require(D:\xampp\htdocs\bulkmailer\application\third_party/mailgun/vendor/autoload.php): failed to open stream: No such file or directory D:\xampp\htdocs\bulkmailer\application\controllers\Cron.php 2
+ERROR - 2023-03-02 22:55:41 --> Severity: Compile Error --> require(): Failed opening required 'D:\xampp\htdocs\bulkmailer\application\third_party/mailgun/vendor/autoload.php' (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\bulkmailer\application\controllers\Cron.php 2

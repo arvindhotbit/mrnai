@@ -1,0 +1,31 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2023-06-25 00:15:22 --> 404 Page Not Found: Faviconico/index
+ERROR - 2023-06-25 00:16:54 --> 404 Page Not Found: Faviconico/index
+ERROR - 2023-06-25 02:21:21 --> 404 Page Not Found: Faviconico/index
+ERROR - 2023-06-25 02:21:25 --> 404 Page Not Found: Faviconico/index
+ERROR - 2023-06-25 02:21:26 --> 404 Page Not Found: Assets/front
+ERROR - 2023-06-25 02:21:29 --> 404 Page Not Found: Assets/front
+ERROR - 2023-06-25 05:13:33 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-06-25 05:13:34 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-06-25 05:14:18 --> 404 Page Not Found: Homephp/index
+ERROR - 2023-06-25 06:18:55 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-06-25 09:51:42 --> 404 Page Not Found: Assets/front
+ERROR - 2023-06-25 12:25:55 --> 404 Page Not Found: Assets/front
+ERROR - 2023-06-25 12:27:03 --> 404 Page Not Found: Assets/front
+ERROR - 2023-06-25 12:28:59 --> 404 Page Not Found: Faviconico/index
+ERROR - 2023-06-25 12:31:15 --> 404 Page Not Found: Faviconico/index
+ERROR - 2023-06-25 12:31:15 --> 404 Page Not Found: Apple-touch-icon-precomposedpng/index
+ERROR - 2023-06-25 12:31:15 --> 404 Page Not Found: Apple-touch-iconpng/index
+ERROR - 2023-06-25 13:27:42 --> 404 Page Not Found: Adstxt/index
+ERROR - 2023-06-25 20:52:44 --> 404 Page Not Found: Faviconico/index
+ERROR - 2023-06-25 21:35:44 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-06-25 21:35:45 --> 404 Page Not Found: Adstxt/index
+ERROR - 2023-06-25 21:41:38 --> 404 Page Not Found: Assets/front
+ERROR - 2023-06-25 21:51:27 --> 404 Page Not Found: Assets/front
+ERROR - 2023-06-25 21:52:12 --> 404 Page Not Found: Faviconico/index
+ERROR - 2023-06-25 22:24:23 --> 404 Page Not Found: Assets/front
+ERROR - 2023-06-25 22:24:24 --> 404 Page Not Found: Faviconico/index
+ERROR - 2023-06-25 22:25:44 --> 404 Page Not Found: Assets/front
+ERROR - 2023-06-25 22:25:46 --> 404 Page Not Found: Faviconico/index
+ERROR - 2023-06-25 22:25:46 --> 404 Page Not Found: Assets/front

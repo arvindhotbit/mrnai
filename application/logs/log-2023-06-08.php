@@ -1,0 +1,29 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2023-06-08 01:54:46 --> 404 Page Not Found: Assets/front
+ERROR - 2023-06-08 01:57:14 --> 404 Page Not Found: Faviconico/index
+ERROR - 2023-06-08 01:57:17 --> 404 Page Not Found: Assets/front
+ERROR - 2023-06-08 05:59:40 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-06-08 05:59:40 --> 404 Page Not Found: Humanstxt/index
+ERROR - 2023-06-08 05:59:41 --> 404 Page Not Found: Adstxt/index
+ERROR - 2023-06-08 06:18:33 --> 404 Page Not Found: Assets/front
+ERROR - 2023-06-08 06:45:41 --> 404 Page Not Found: Assets/front
+ERROR - 2023-06-08 07:48:51 --> 404 Page Not Found: Assets/front
+ERROR - 2023-06-08 09:24:03 --> 404 Page Not Found: Apple-touch-icon-120x120-precomposedpng/index
+ERROR - 2023-06-08 09:24:03 --> 404 Page Not Found: Apple-touch-icon-120x120png/index
+ERROR - 2023-06-08 09:24:03 --> 404 Page Not Found: Apple-touch-icon-precomposedpng/index
+ERROR - 2023-06-08 09:24:03 --> 404 Page Not Found: Apple-touch-iconpng/index
+ERROR - 2023-06-08 09:24:04 --> 404 Page Not Found: Assets/front
+ERROR - 2023-06-08 09:24:04 --> 404 Page Not Found: Faviconico/index
+ERROR - 2023-06-08 09:24:04 --> 404 Page Not Found: Apple-touch-icon-120x120-precomposedpng/index
+ERROR - 2023-06-08 09:24:04 --> 404 Page Not Found: Apple-touch-icon-120x120png/index
+ERROR - 2023-06-08 09:24:04 --> 404 Page Not Found: Apple-touch-icon-precomposedpng/index
+ERROR - 2023-06-08 09:24:04 --> 404 Page Not Found: Apple-touch-iconpng/index
+ERROR - 2023-06-08 09:24:04 --> 404 Page Not Found: Assets/front
+ERROR - 2023-06-08 09:24:04 --> 404 Page Not Found: Faviconico/index
+ERROR - 2023-06-08 09:42:31 --> 404 Page Not Found: Assets/front
+ERROR - 2023-06-08 12:16:31 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-06-08 12:16:32 --> 404 Page Not Found: Adstxt/index
+ERROR - 2023-06-08 14:36:05 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2023-06-08 14:36:06 --> 404 Page Not Found: Adstxt/index
+ERROR - 2023-06-08 22:10:55 --> 404 Page Not Found: Assets/front
